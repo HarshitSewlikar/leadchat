@@ -28,7 +28,7 @@ The AI component is only used to interpret the query. All computations are perfo
 
 Backend:
 
-* Python
+* Python #Python version required: 3.11
 * FastAPI
 * Pandas
 * OpenPyXL
