@@ -25,7 +25,7 @@ app.add_middleware(
 )
 
 # ===================== LOAD DATA =====================
-DATA_PATH = r"C:\Users\LENOVO\Desktop\leadchat\data\pune_real_estate_leads_updated.xlsx"
+DATA_PATH = r"..\data\pune_real_estate_leads_updated.xlsx"
 
 def load_data():
     df = pd.read_excel(DATA_PATH)
