@@ -88,26 +88,28 @@ README.md
 
 ### Backend
 
-cd backend
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
+step 1)cd backend
+step 2)python -3.11 -m venv venv
+step 3)venv\Scripts\activate
+step 4)pip install -r requirements.txt
 
 Set API key:
-
-set OPENROUTER_API_KEY=your_key_here
+step1) gp to OPENROUTER.com
+Step2)Create key there
+Step3)after activating env set key using syntax:
+  set OPENROUTER_API_KEY=your_key_here
 
 Run server:
 
 uvicorn main:app --reload --port 8000
 
 ---
-
+split terminal here and run frontend.
 ### Frontend
 
-cd frontend
-python -m http.server 3000
-
+step 1)cd frontend
+step 2)python -m http.server 3000
+step 3)
 Open in browser:
 
 http://localhost:3000
