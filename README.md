@@ -94,7 +94,7 @@ step 3)venv\Scripts\activate
 step 4)pip install -r requirements.txt
 
 Set API key:
-step1) gp to OPENROUTER.com
+step1) go to OPENROUTER.ai
 Step2)Create key there
 Step3)after activating env set key using syntax:
   set OPENROUTER_API_KEY=your_key_here
